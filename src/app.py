@@ -13,6 +13,7 @@ def increase():
     cnt.increase()
     return redirect("/")
 
+#Turha kommentti
 @app.route("/increment", methods=["POST"])
 def increment():
     try:
