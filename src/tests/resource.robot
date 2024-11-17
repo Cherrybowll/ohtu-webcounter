@@ -17,7 +17,7 @@ Open And Configure Browser
     END
     IF  $HEADLESS == 'true'
         Set Selenium Speed  0
-        Call Method  ${options}  add_argument  --HEADLESS
+        Call Method  ${options}  add_argument  --headless
     ELSE
         Set Selenium Speed  ${DELAY}
     END
